@@ -1,14 +1,14 @@
 # Site-cv-nuxt2
-Welcome to my new CV site 👋
-
-Access: [zozoy.fr](https://zozoy.fr)
+Bienvenue sur mon portfolio pour mon BTS SIO SISR 👋
+<!-- 
+Access: [zozoy.fr](https://zozoy.fr) -->
 ## Installation
 
 ```bash
 # clone the repo
-$ git clone https://github.com/zozo404/site-cv-nuxt2.git
+$ git clone https://github.com/zozo404/bts-sio-site.git
 
-$ cd site-cv-nuxt2
+$ cd bts-sio-site
 
 # install dependencies
 $ yarn install
