@@ -25,17 +25,6 @@
         <p class="my-8">
           {{ portfolio.text }}
         </p>
-        <br>
-        <div class="md:flex justify-around flex-wrap">
-          <p>
-            Vous pouvez accéder au github du projet <br>
-            <a :href="portfolio.link" target="_blank" rel="noopener" class="text-orange-400 text-lg">Ici</a>
-          </p>
-          <p v-if="portfolio.url">
-            Ou directement au projet <br>
-            <a :href="portfolio.url" target="_blank" rel="noopener" class="text-orange-400 text-lg">{{ portfolio.name }}</a>
-          </p>
-        </div>
       </div>
     </div>
   </div>
