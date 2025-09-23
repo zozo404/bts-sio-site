@@ -33,7 +33,7 @@
           rows="7"
           required
         />
-        <div class="g-recaptcha" data-sitekey="6LcZYVkjAAAAAGQMCYXMgHXmqikh4gC8K6LxUqAk" />
+        <div class="g-recaptcha" data-sitekey="6LeF0tIrAAAAALN9PEMYzz2imPH_k0WzCtQCRMZt" />
       </div>
       <div class="text-center">
         <i>NB: Si le captcha ne s'affiche pas, désactivez vos bloqueurs de pub et relancez la page</i>
