@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'zozoy dev',
+    title: 'enzo bts sio',
     htmlAttrs: {
       lang: 'fr'
     },
