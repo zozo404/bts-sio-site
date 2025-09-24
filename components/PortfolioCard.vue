@@ -37,7 +37,7 @@
         </nuxt-link>
       </div>
     </div>
-    <ButtonLink />
+    <!-- <ButtonLink /> -->
   </div>
 </template>
 <script>

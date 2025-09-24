@@ -1,7 +1,7 @@
-# Site-cv-nuxt2
+# BTS SIO SISR site
 Bienvenue sur mon portfolio pour mon BTS SIO SISR 👋
-<!-- 
-Access: [zozoy.fr](https://zozoy.fr) -->
+
+Access: [enzocuny-bts-sio-sisr.netlify.app](https://enzocuny-bts-sio-sisr.netlify.app/)
 ## Installation
 
 ```bash
