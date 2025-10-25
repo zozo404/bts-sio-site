@@ -45,6 +45,10 @@ export default {
           {
             name: 'Mon LinkedIn',
             href: 'https://www.linkedin.com/in/enzo-cuny/'
+          },
+          {
+            name: 'Tableau de synthèse E5 [en cours]',
+            href: '/8-1-BTS-SIO-2025-Annexe-8-1-Epreuve-E5-Tableau-de-syntheĢse.pdf'
           }
         ]
 
