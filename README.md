@@ -1,7 +1,7 @@
 # BTS SIO SISR site
 Bienvenue sur mon portfolio pour mon BTS SIO SISR 👋
 
-Access: [enzocuny-bts-sio-sisr.netlify.app](https://enzocuny-bts-sio-sisr.netlify.app/)
+Accès : [enzocuny-bts-sio-sisr.netlify.app](https://enzocuny-bts-sio-sisr.netlify.app/)
 ## Installation
 
 ```bash
