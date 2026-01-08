@@ -6,12 +6,11 @@
     >
       <!-- for loop to display some examples of my achievements, they each have a page for them, which gives the difficulty, the goal and the link of the project -->
       <div
-        v-for="work in works"
+        v-for="work in filteredWorks"
         :key="work._id"
         class="flex flex-col items-center h-full w-full md:max-w-[48%] lg:max-w-[49%] 2lg:max-w-[32%] 2xl:max-w-[24%] rounded-xl"
       >
         <nuxt-link
-          v-if="work.informatique == 'Reseau'"
           :to="work.slug.current"
           class="max-w-sm overflow-hidden rounded-xl shadow-md duration-200 hover:scale-105 hover:shadow-xl w-full h-full border-2 border-orange-500"
         >
@@ -48,8 +47,16 @@ export default {
   mixins: [scrollFadeMixin],
   props: {
     works: {
-      default: null,
+      default: () => [],
       type: Array
+    }
+  },
+  computed: {
+    filteredWorks () {
+      if (!this.works) {
+        return []
+      }
+      return this.works.filter(work => work.informatique === 'Reseau')
     }
   }
 }

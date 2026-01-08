@@ -22,9 +22,15 @@
           <span v-if="portfolio.difficulty == 'Moyen'" class="inline-flex items-center rounded-full bg-yellow-100 px-3 py-0.5 text-sm font-medium text-yellow-800 ml-1">{{ portfolio.difficulty }}</span>
           <span v-if="portfolio.difficulty == 'Dur'" class="inline-flex items-center rounded-full bg-red-100 px-3 py-0.5 text-sm font-medium text-red-800 ml-1">{{ portfolio.difficulty }}</span>
         </div>
-        <p class="my-8">
+        <p class="my-8 whitespace-pre-line">
           {{ portfolio.text }}
         </p>
+        <div class="md:flex justify-around flex-wrap">
+          <p v-if="portfolio.link">
+            Vous pouvez accéder au projet <br>
+            <a :href="portfolio.link" target="_blank" rel="noopener" class="text-orange-400 text-lg">Ici</a>
+          </p>
+        </div>
       </div>
     </div>
   </div>
