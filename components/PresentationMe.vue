@@ -48,7 +48,7 @@ export default {
           },
           {
             name: 'Tableau de synthèse E5',
-            href: '/8-1-BTS-SIO-2025-Annexe-8-1-Epreuve-E5-Tableau-de-syntheĢse.pdf'
+            href: '/8-1-BTS-SIO-2025-Annexe-8-1-Epreuve-E5-Tableau-de-synthèse.xlsx'
           }
         ]
 
