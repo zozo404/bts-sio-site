@@ -27,7 +27,7 @@ export default {
     script: [
       {
         hid: 'captcha',
-        src: ' https://www.google.com/recaptcha/api.js',
+        src: 'https://www.google.com/recaptcha/api.js',
         defer: true,
         async: true
       }
