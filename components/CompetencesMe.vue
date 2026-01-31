@@ -5,15 +5,16 @@
       Voici toutes les technologies avec lesquelles j'ai pu travailler
     </p>
     <div class="flex justify-center flex-wrap gap-8 items-center px-1">
-      <nuxt-img
-        v-for="skill in skills"
-        :key="skill._id"
-        provider="sanity"
-        :src="skill.imageUrl.asset._ref"
-        placeholder
-        class="w-16 h-auto"
-        :alt="skill.imageUrl.alt"
-      />
+      <div v-for="skill in skills" :key="skill._id" class="flex items-center flex-col self-end">
+        <nuxt-img
+          provider="sanity"
+          :src="skill.imageUrl.asset._ref"
+          placeholder
+          class="w-16 h-auto"
+          :alt="skill.name"
+        />
+        <p class="mt-3 first-letter:uppercase">{{ skill.name }}</p>
+      </div>
     </div>
   </div>
 </template>

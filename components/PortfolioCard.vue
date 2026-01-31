@@ -20,7 +20,7 @@
               :src="work.imageUrl.asset._ref"
               placeholder
               class="h-52 w-full"
-              :alt="work.imageUrl.alt"
+              :alt="work.name"
             />
             <div class="p-5">
               <p class="text-lg text-center mb-5 text-gray-300">
