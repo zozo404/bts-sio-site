@@ -4,10 +4,13 @@
     <div class="flex flex-col items-center">
       <Logo />
       <p class="text-center mt-2 w-1/2 text-lg pb-4 font-comfortaa">
-        👋, Je suis Enzo 👨‍💻. Jonglant entre le dev web et le réseau,<span class="text-orange-500">
+        👋, Je suis Enzo 👨‍💻. Jonglant entre le dev web et le réseau,<span
+          class="text-orange-500"
+        >
           je suis actuellement en alternance au sein du groupe Elsan
         </span>
-        pour mon BTS SIO SISR. Je souhaite mettre mon expertise au service du groupe à la fin de mes études.
+        pour mon BTS SIO SISR afin de me spécialiser en réseau. Je souhaite mettre mon expertise au service du
+        groupe à la fin de mes études.
       </p>
     </div>
     <div class="flex flex-col items-center gap-5 lg:flex-row lg:justify-center">
@@ -22,6 +25,18 @@
       >{{ btn.name }}</a>
     </div>
     <Elsan />
+    <div class="flex flex-col items-center mt-7">
+      <p class="text-center mt-2 w-1/2 text-lg pb-4 font-comfortaa">
+        <br>
+        Le BTS SIO (Services Informatiques aux Organisations) forme
+        en deux ans des experts en informatique capables de répondre aux besoins
+        de transformation numérique des entreprises.
+        <br>
+        <br>
+        Il propose deux spécialisations : SISR (Infrastructure, Systèmes et Réseaux) et SLAM
+        (Solutions Logicielles et Applications Métiers).
+      </p>
+    </div>
   </div>
 </template>
 
@@ -52,7 +67,6 @@ export default {
             href: '/BTS_SIO_Annexe_VI.5_EpreuveE5-Tableau-de-synthese_2026.xlsx'
           }
         ]
-
       }
     }
   },
@@ -63,5 +77,4 @@ export default {
 </script>
 
 <style>
-
 </style>

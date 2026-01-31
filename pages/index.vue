@@ -12,6 +12,8 @@
     <ExperienceMe :exps="Stages" class=" pb-10" />
     <Titles :id="'portfolio'" subtitle="Portfolio" class="scroll-mt-60 lg:scroll-mt-40" />
     <PortfolioCard :works="Portfolio" class="scroll-mt-60 lg:scroll-mt-40 pb-10" />
+    <Titles :id="'veille-techno'" class="scroll-mt-60 lg:scroll-mt-40" subtitle="Veille Technologique" />
+    <VeilleTechno class="scroll-mt-60 lg:scroll-mt-40 pb-10" />
     <Titles :id="'contact'" subtitle="Contact" class="scroll-mt-60 lg:scroll-mt-40" />
     <ContactMe class="scroll-mt-60 lg:scroll-mt-40" />
   </div>

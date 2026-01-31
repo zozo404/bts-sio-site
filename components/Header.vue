@@ -109,6 +109,10 @@ export default {
           lien: '/#portfolio'
         },
         {
+          texte: 'VT',
+          lien: '/#veille-techno'
+        },
+        {
           texte: 'Contact',
           lien: '/#contact'
         }
