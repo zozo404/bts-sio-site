@@ -82,7 +82,7 @@ export default {
       // On vérifie qu'il est vide pour ne pas le mettre 2 fois
       if (el && !el.hasChildNodes()) {
         window.grecaptcha.render('recaptcha-container', {
-          sitekey: '6LcaE1wsAAAAANlH-e_R-cBJZxaw5S62tNsuihUR'
+          sitekey: '6LcZYVkjAAAAAGQMCYXMgHXmqikh4gC8K6LxUqAk'
         })
       }
     }
