@@ -1,7 +1,7 @@
 <template>
   <div class="fade-scroll" :class="{ visible: isVisible }">
     <!-- contact form I implemented with getform -->
-    <form action="https://forminit.com/f/ae1658ac-b595-4be1-9013-ebf2a296b6b1" method="POST" enctype="multipart/form-data">
+    <form action="https://getform.io/f/ae1658ac-b595-4be1-9013-ebf2a296b6b1" method="POST" enctype="multipart/form-data">
       <div class="flex flex-col flex-wrap gap-5 items-center mt-5">
         <div v-for="input in inputs" :key="input._id" class="flex">
           <p class="pr-1">
@@ -33,7 +33,7 @@
           rows="7"
           required
         />
-        <div class="g-recaptcha" data-sitekey="6LcZYVkjAAAAAGQMCYXMgHXmqikh4gC8K6LxUqAk" />
+        <div id="recaptcha-container" class="g-recaptcha" data-sitekey="6LcZYVkjAAAAAGQMCYXMgHXmqikh4gC8K6LxUqAk" />
       </div>
       <div class="text-center">
         <i>NB: Si le captcha ne s'affiche pas, désactivez vos bloqueurs de pub et relancez la page</i>
@@ -73,6 +73,18 @@ export default {
           minlength: '1'
         }
       ]
+    }
+  },
+  mounted () {
+    // On attend que Google soit prêt, et on force le rendu dans la div
+    if (window.grecaptcha && window.grecaptcha.render) {
+      const el = document.getElementById('recaptcha-container')
+      // On vérifie qu'il est vide pour ne pas le mettre 2 fois
+      if (el && !el.hasChildNodes()) {
+        window.grecaptcha.render('recaptcha-container', {
+          sitekey: '6LcZYVkjAAAAAGQMCYXMgHXmqikh4gC8K6LxUqAk'
+        })
+      }
     }
   }
 }
