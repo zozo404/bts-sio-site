@@ -64,7 +64,7 @@ export default {
           },
           {
             name: 'Tableau de synthèse E5',
-            href: '/BTS_SIO_Annexe_VI.5_EpreuveE5-Tableau-de-synthese_2026.xlsx'
+            href: '/BTS_SIO_Annexe_VI.5_EpreuveE5-Tableau-de-synthese_2026.pdf'
           }
         ]
       }
